@@ -45,6 +45,7 @@ yes | ./sdkmanager 'platforms;android-30'
 yes | ./sdkmanager 'platforms;android-29'
 yes | ./sdkmanager 'platforms;android-28'
 
+yes | ./sdkmanager "build-tools;30.0.3"
 yes | ./sdkmanager "build-tools;30.0.2"
 yes | ./sdkmanager "build-tools;29.0.2"
 yes | ./sdkmanager "build-tools;28.0.2"
