@@ -17,12 +17,16 @@ apt update
 yes |apt install default-jdk
 
 # Getting the android sdk command line tools 
-wget https://dl.google.com/android/repository/commandlinetools-linux-8092744_latest.zip
+# commandlinetools-linux-9477386_latest.zip
+wget https://dl.google.com/android/repository/commandlinetools-linux-9477386_latest.zip
 
+
+#set this directory as the path for ANDROID_HOME
+#add ANDROID_HOME=~/android-sdk to .bashrc file
 mkdir android-sdk
 
 # Unzipping the contents of the zip file to the android-sdk directory
-unzip commandlinetools-linux-8092744_latest.zip -d android-sdk/
+unzip commandlinetools-linux-9477386_latest.zip -d android-sdk/
 
 # Creating a directory and adding a sub folder as the sdk manager would not work without it
 sudo mkdir ./android-sdk/latest 
